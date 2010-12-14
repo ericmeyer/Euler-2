@@ -20,9 +20,8 @@
   (it "sums up to 8" ;; 1 2 3 5 8
     (should= 10 (euler2 8)))
 
-  (it "sums up to 8" ;; 1 2 3 5 8
+  (it "sums up to 4000000" ;; 1 2 3 5 8
     (should= 4613732 (euler2 4000000)))
-        
 )
 
 (describe "fib-seq"
