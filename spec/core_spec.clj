@@ -34,6 +34,9 @@
   (it "gets up to 3"
     (should= [1 2 3] (fib-seq-up-to 3)))
 
+  (it "gets up to 4"
+    (should= [1 2 3] (fib-seq-up-to 4)))
+
   (it "gets up to 5"
     (should= [1 2 3 5] (fib-seq-up-to 5)))
 )
