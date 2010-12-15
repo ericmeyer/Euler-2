@@ -6,7 +6,7 @@
 (defn fib [list max]
   (if (> (+ (last list) (second-to-last list)) max)
     list
-    (fib (vec (concat list [(+ (last list) (second-to-last list))])) max)))
+    (recur (vec (concat list [(+ (last list) (second-to-last list))])) max)))
 
 (defn fib-seq-up-to [max]
   (if (= max 1)
